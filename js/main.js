@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 
 
 
 // ################################## LAYER ###################################################
 
+=======
+>>>>>>> 7db6e93cacd93a5f3f30c2ba83461db31d753baf
 function showLayer() {
     let layer = document.createElement("div");
     layer.classList.add("layer")

@@ -86,9 +86,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.card {
-  width: 60%;
+body {
+  position: relative;
+}
+.layer {
+  left: 15vw;
+  top: 10vh;
+  height: 50vh;
+  width: 70%;
+  position: fixed;
+  background-color: #000;
+  opacity: 1;
   margin: auto;
+  color: #fff;
+}
+   main {
+  flex-direction: column;
+}
+nav {
+  background-color: #191716;
+}
+header {
+  background-color: #C9C5CD;
+}
+.card {
+  width: 70%;
+  margin: auto;
+}
+.logo {
+  width: 19vw;
+  height: 14vh;
+}
+@media screen and (min-width: 720px) {
+  .logo {
+    width: 10vw;
+  }
 }
 /* ==========================================================================
    Helper classes

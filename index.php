@@ -18,7 +18,7 @@ include "layout/header.php"; ?>
         <h5 class="card-title">' . $acount["owner"] . '</h5>
         <p class="card-text">' . $acount["number"] . '</p>
         <div class="d-flex justify-content-between">
-          <a href="#" class="btn btn-primary">...</a>
+          <a href="acount.php?id=' . $index . '" class="btn btn-primary">...</a>
           <h5 class="card-title">' . $acount["amount"] . '€</h5>
         </div>
       </div>
